@@ -1,0 +1,38 @@
+#daily-display-link {
+  text-align: center;
+  display: block;
+  background-color: beige;
+  padding: 15px 0px;
+  color: salmon;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+#daily-display-link svg {
+  color: salmon;
+  padding-right: 0.5px;
+}
+
+.daily-screen {
+  padding: 0px var(--horixontal-space);
+}
+.daily-screen__list span {
+  padding: 25px 20px;
+  font-weight: 600;
+}
+.daily-screen__line {
+  border: 0;
+  height: 3px;
+  background-color: palevioletred;
+}
+
+.daily-screen__date li {
+  text-align: center;
+  display: block;
+  padding: 15px 5px;
+  font-size: 18px;
+  font-weight: 600;
+  font-style: initial;
+  color: bisque;
+  cursor: grab;
+}

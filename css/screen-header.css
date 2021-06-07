@@ -1,0 +1,17 @@
+.screen-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+}
+.screen-header__title {
+  width: 80%;
+  font-style: oblique;
+  color: salmon;
+  font-size: 28px;
+  font-weight: 600;
+  padding: var(--horixontal-space);
+}
+.screen-header__icons span {
+  color: seagreen;
+}
